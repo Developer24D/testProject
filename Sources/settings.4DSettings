@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<preferences stamp="1">
+	<com.4d>
+		<deployment>
+			<options generate_applications_for_read_only_deployment="true"/>
+		</deployment>
+	</com.4d>
+</preferences>

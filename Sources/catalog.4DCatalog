@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="testproject" uuid="32021D772BE846F59B6CAC5E271DE164" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Table_1" uuid="AE6EB925457B47B39C78AFA7A6C5938D" id="1">
+		<field name="ID" uuid="E131388D1B2E44B0B3C18AC8D880DBA1" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Field_2" uuid="5C125669E3BF4999B756208B06E1B730" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Field_3" uuid="6E1141EFC2274B9782C6C74EBCA8B838" type="10" limiting_length="255" never_null="true" id="3"/>
+		<primary_key field_name="ID" field_uuid="E131388D1B2E44B0B3C18AC8D880DBA1"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="40" top="40" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="23B6200C5B474CCEBA6D86408FEA5DF4" type="7">
+		<field_ref uuid="E131388D1B2E44B0B3C18AC8D880DBA1" name="ID">
+			<table_ref uuid="AE6EB925457B47B39C78AFA7A6C5938D" name="Table_1"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:56.1.0" __keywordBuildingHash="icu:56.1.0" package_name="testproject" structure_file_name="testproject" data_file_path=":testproject.4DD" source_code_stamp="4">
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>
