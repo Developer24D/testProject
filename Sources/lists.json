@@ -5,17 +5,17 @@
 		"customDataInteger": 0,
 		"items": [
 			{
-				"text": "New Item # 1",
+				"text": "Tata",
 				"ref": 1,
 				"editable": true
 			},
 			{
-				"text": "New Item # 2",
+				"text": "Toto",
 				"ref": 2,
 				"editable": true
 			},
 			{
-				"text": "New Item # 3",
+				"text": "Titi",
 				"ref": 3,
 				"editable": true
 			}
