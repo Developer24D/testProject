@@ -31,10 +31,41 @@
 		"onBoundVariableChange",
 		"onPageChange"
 	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
 	"pages": [
-		null,
+		{
+			"objects": {}
+		},
 		{
 			"objects": {
+				"Variable": {
+					"type": "input",
+					"top": 35,
+					"left": 114,
+					"width": 199,
+					"height": 17,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					],
+					"right": 313,
+					"bottom": 52
+				},
+				"Text": {
+					"type": "text",
+					"top": 35,
+					"left": 26,
+					"width": 89,
+					"height": 17,
+					"stroke": "automatic",
+					"text": "Sample Text:",
+					"right": 115,
+					"bottom": 52
+				},
 				"Button": {
 					"type": "button",
 					"top": 106,
@@ -45,28 +76,9 @@
 					"focusable": false,
 					"events": [
 						"onClick"
-					]
-				},
-				"Text": {
-					"type": "text",
-					"top": 35,
-					"left": 38,
-					"width": 89,
-					"height": 17,
-					"stroke": "automatic",
-					"text": "Sample Text:"
-				},
-				"Variable": {
-					"type": "input",
-					"top": 35,
-					"left": 133,
-					"width": 199,
-					"height": 17,
-					"dragging": "none",
-					"dropping": "custom",
-					"events": [
-						"onDataChange"
-					]
+					],
+					"right": 155,
+					"bottom": 140
 				}
 			}
 		}

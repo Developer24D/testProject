@@ -1,0 +1,46 @@
+﻿{
+	"New List": {
+		"lineHeight": 18,
+		"editable": true,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "New Item # 1",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "New Item # 2",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "New Item # 3",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	},
+	"New List 1": {
+		"lineHeight": 18,
+		"editable": true,
+		"customDataInteger": 0,
+		"items": [
+			{
+				"text": "New Item # 1",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "New Item # 2",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "New Item # 3",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	}
+}

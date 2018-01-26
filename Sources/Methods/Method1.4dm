@@ -1,2 +1,1 @@
-//%attributes = {}
-ALERT:C41("toto")
+﻿//%attributes = {"invisible":true,"preemptive":"incapable"}ALERT:C41("toto")
