@@ -1,2 +1,2 @@
 //%attributes = {}
-ALERT:C41("coucou")
+ALERT:C41("toto")
